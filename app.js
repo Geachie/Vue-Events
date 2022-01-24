@@ -7,7 +7,7 @@ const app = Vue.createApp({
   },
   methods: {
     setName(event, lastName) {
-      this.name = event.target.value + " " + lastName;
+      this.name = `${event.target.value} ${lastName}`;
     },
     add(num) {
       this.counter = this.counter + num;
